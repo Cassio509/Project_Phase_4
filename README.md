@@ -1,12 +1,12 @@
-# 🧠 Analyse et Modélisation des Sentiments des Tweets sur les Produits Apple et Google
+# Analyse et Modélisation des Sentiments des Tweets sur les Produits Apple et Google
 
-## 📄 Description du projet
+## Description du projet
 Ce projet vise à analyser les sentiments exprimés sur **Twitter** à propos des produits **Apple** et **Google**, en utilisant des techniques de **traitement automatique du langage naturel (NLP)** et de **machine learning**.  
 L’objectif est de fournir des insights exploitables pour comprendre la perception du public et orienter les stratégies de **marketing**, de **développement produit** et de **gestion de marque**.
 
 ---
 
-## 🎯 Objectifs
+## Objectifs
 
 - Analyser les tweets concernant Apple et Google afin de déterminer la polarité (positive, négative, neutre).  
 - Identifier les tendances, les mots-clés dominants et la répartition des émotions.  
@@ -15,7 +15,7 @@ L’objectif est de fournir des insights exploitables pour comprendre la percept
 
 ---
 
-## 🧩 Méthodologie
+##  Méthodologie
 
 1. **Collecte et exploration des données**
    - Nettoyage des tweets (suppression des stopwords, ponctuation, hashtags, etc.)
@@ -38,19 +38,19 @@ L’objectif est de fournir des insights exploitables pour comprendre la percept
 
 ---
 
-## 📊 Résultats clés
+##  Résultats clés
 
-| Type d’analyse | Modèle | Précision obtenue | Observations |
-|----------------|---------|------------------|---------------|
-| Binaire | Random Forest | **87.48 %** | Bon équilibre précision/rappel pour sentiments positifs et négatifs. |
-| Multiclasse | Multinomial Naive Bayes | **85.88 %** | Performances équilibrées sur plusieurs catégories. |
+Type d’analyse, Modèle, Précision obtenue, Observations 
+
+ Binaire,  Random Forest  **87.48 %**  Bon équilibre précision/rappel pour sentiments positifs et négatifs. 
+ Multiclasse  Multinomial Naive Bayes  **85.88 %**  Performances équilibrées sur plusieurs catégories. 
 
 Les analyses montrent une prédominance des tweets **neutres (~5200)**, suivis des **positifs (~3000)**, puis des **négatifs (~600)**.  
 Les termes les plus fréquents sont liés à **SXSW**, **Apple**, **Google**, et leurs produits phares (*iPad*, *Android*, *iPhone*).
 
 ---
 
-## 🧠 Enseignements
+##  Enseignements
 
 - Les tweets relatifs à **Apple** sont globalement plus nombreux et souvent plus positifs.  
 - Les émotions négatives sont minoritaires mais concentrées autour de mots-clés spécifiques (ex. *hate*, *bad*, *terrible*).  
@@ -58,7 +58,7 @@ Les termes les plus fréquents sont liés à **SXSW**, **Apple**, **Google**, et
 
 ---
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 - **Python 3.x**
 - **Bibliothèques principales :**
